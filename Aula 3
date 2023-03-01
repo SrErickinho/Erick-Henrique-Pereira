@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset= "UTF-8">
+        <title> Aula 3 - Trabalhando com CSS </title>
+    </head>
+    <body>
+        <h1 style="text-align: center; color:
+            magenta">Usando o CSS in-line</h1>
+
+        <br> <!--Inserir quebra de linha-->
+        <hr> <!--Insere uma linha na horizontal -->
+        
+
+        <p  style="font-size: 20px; text-align:
+            center">   
+        
+    </body>   
+</html>    
