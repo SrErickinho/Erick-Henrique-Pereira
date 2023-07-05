@@ -1,0 +1,118 @@
+header{
+    background-color: #507EA8 ;
+    padding: 6%;
+    position:initial;
+    border: 1px solid white;
+}
+
+@font-face {
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: #b4afaf ;
+    margin:0%;
+    align-content: flex;
+}
+.tituloprincipal{
+    position: absolute;
+    top: 3%;
+    left:38%;
+    transform: translate(-10%, 50%);
+    font-size: 70px;
+    color:#101C84;
+    text-shadow: -1px -1px 0px #8f0909;
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 30px 0; 
+    
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    background: rgb(255, 119, 0);
+    transform: scale(1.2);
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 10px 0 0;
+
+}
+
+.titulosecundario{
+    position: absolute;
+    font-size: 40px;
+    color:#101C84;
+    text-shadow: -1px -1px 0px #8f0909;
+    top: 193%;
+    left: 38%;
+}
+
+footer{
+    text-align: left;
+    background-color: #507EA8 ;
+    border: 1px solid white;
+
+}
+#logo2{
+    border-radius: 15px;
+    width: 190px;
+    height: 85px;
+    border: 1px solid black;
+}
+nav{
+    position: absolute;/*posicionamento dos links*/
+    top: 20%;
+    right: 545px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;/*usado para criar espaço ao redor dos elementos, fora de qualquer borda definida.*/
+}
+nav a{
+    text-transform: uppercase;
+    color: #12125c;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input::placeholder {
+    color: #12125c;   
+}

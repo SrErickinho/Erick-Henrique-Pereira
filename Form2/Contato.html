@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title> Formulário - Modelo 2 </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/Contato.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="tituloprincipal">Mecânica M2000</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main><!--define o conteúdo principal dentro do <body> em seu documento ou aplicação-->
+      <br>
+      <form action="home.html">
+        <label for="nomesobrenome">Nome e Sobrenome</label>
+        <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Nome e Sobrenome" required>
+        <br><br>
+        <label for="email"> Email </label>
+        <input type="email" name="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+        <br><br>
+        <label for="numero">Numero  </label>
+        <input type="number" name="Telefone" id="Telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX " required>
+        <br><br>
+        <label for="mensagem"> Assunto </label>
+        <input type="text" name="assunto" id="Assunto" class="input-padrao" placeholder="Assunto" required></textarea>
+        <label for="mensagem"> Mensagem </label>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" placeholder="Digite seu texto aqui!" required></textarea>
+        
+        <section>
+          <p>Como prefere nosso contato?</p>
+
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp (XXXXX-XXXX)</label>
+
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" checked>Telefone (XXXXX-XXXX) </label>
+
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>E-mail (m200@gmail.com)</label>
+
+          <p>Assim que selecionar opção acima, mande o contato no número ou email selecionado para que o respondamos.</p>
+
+        </section>
+
+        <section>
+          <p>Qual horário prefere ser atendido?</p>
+          <select><!--Selecionar opção-->
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+        </section>
+
+        <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+        
+        <input type="submit" value="Enviar contato" class="enviar">
+
+        <p>Assim que possível entraremos em contato</p>
+
+      </form>
+    </main>
+    <footer>
+      <img id="logo2" src="img/Engrenagem.png">
+      <h2 class="titulosecundario">Mecânica M2000</h2>
+      <p class="copyright">&copy; Copyrigth -- Erick Henrique Pereira</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+
+body{
+    background-color: #b4afaf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    color: rgb(239, 239, 239);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #507EA8;
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    align-items: center;
+}
+
+fieldset{
+    border: 2px solid rgb(124, 9, 9);
+}
+
+legend{
+    color:#101C84;
+    text-shadow: -1px -1px 0px #8f0909;
+    border: 3px solid rgb(124, 9, 9);
+    padding: 10px;
+    text-align: center;
+    background-color: #507EA8;
+    border-radius: 8px;
+    font-size: 22px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;/*tirar a borda*/
+    border-bottom:  2px solid rgb(124, 9, 9);
+    outline: none;/*tirar a linha de fora do input*/
+    color:  rgb(182, 189, 225);
+    font-size: 20px;
+    width: 100%;/*comprimento da linha*/
+    letter-spacing: 2px;/*espaço entre cada caarater no input*/
+}
+.labelinput{/* animação das labels - nessa parte, as labels irão
+    se encaixar dentro dos inputs*/
+position: absolute; /* vai ocupar apenas o elemento dela mesma */
+top: 0px;
+left: 0px;
+pointer-events: none;/* qualquer lugar que eu clicar dentro
+                do input, ele vai executar a ação */
+transition: 5px;/* transição - para criaçao de efeitos de animação personalizado*/
+}
+
+/*Quando clicar no input eu quero que a label vai para cima
+do input - por isso a ação é no input*/
+
+.inputUser:focus ~ .labelinput, /*executar uma ação na nossa label*/
+.inputUser:valid ~ .labelinput{ /*qdo o input tiver válido, eu queroque ele execute essa ação para alabel - a informação irá permanecerno input, senão irá ficar por cima*/
+top: -20px;
+font-size: 20px;
+color: #12125c;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+nav{
+    position: absolute;/*posicionamento dos links*/
+    top: 255px;
+    right: 50px;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    text-transform: uppercase;
+    color: #e2d8d8;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
