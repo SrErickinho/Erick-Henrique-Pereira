@@ -3,7 +3,7 @@
     <head>
         <title>CSS Externo - Formulário 13/04, 03/05</title>
         <meta charset="utf-8">
-        <link rel="stylsheet" href="style.css">   
+        <link rel="stylesheet" href="form.css">   
     </head>
     <body>
         <header> <!--Cabeçaho-->
@@ -22,25 +22,25 @@
                         </section> 
                         <br><br>
                         <section class="inputBox">
-                            <input type="text" name="email" id="email" class="inputUser" required placeholder="seuemail@domínio.com">
+                            <input type="text" name="email" id="email" class="inputUser" required>
                             <label for="email" class="labelinput">E-mail</label>
                         </section>
                         <br><br>
                         <section class="inputBox">
-                            <input type="tel" id="telefone" name="telefone" class="inputUser" required placeholder="(XX)xxxxx-xxxx">
+                            <input type="tel" id="telefone" name="telefone" class="inputUser" required>
                             <label for="telefone" class="labelinput">Telefone</label>
                         </section>
 
                         <p>Sexo</p>
-                        <input type="radio" id="feminino" name="genero" value="feminino" required>
+                        <input type="radio" id="feminino" name="genero" value="feminino">
                         <label for="feminino">Feminino</label>
                         <br>
 
-                        <input type="radio" id="masculino" name="genero" value="masculino" required>
+                        <input type="radio" id="masculino" name="genero" value="masculino">
                         <label for="masculino">Masculino</label>
                         <br>
 
-                        <input type="radio" id="outro" name="genero" value="outro" required>
+                        <input type="radio" id="outro" name="genero" value="outro">
                         <label for="outro">Outro</label>
                         <br><br>
 
@@ -48,25 +48,25 @@
                         <input type="date" name="data_nascimento" id="data_nascimento" required>
                         <br><br><br>
 
-                        <section>
+                        <section class="inputBox">
                             <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                            <label for="cidade" class="inputUser">Cidade</label>
+                            <label for="cidade" class="labelinput">Cidade</label>
                         </section>
                         <br><br>
 
-                        <section>
-                            <input type="text" name="estado" id="estado" class="inputUser"required>
-                            <label for="estado">Estado</label>
+                        <section class="inputBox">
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label for="estado" class="labelinput">Estado</label>
                         </section>
                         <br><br>
 
-                        <section>
+                        <section class="inputBox">
                             <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                            <label for="endereco">Endereço</label>
+                            <label for="endereco" class="labelinput">Endereço</label>
                         </section>
                         <br><br>
 
-                        <input type="submit" value="Enviar formulário" id="enviar">
+                        <input type="submit" value="Enviar formulário" id="enviar" required>
 
                         
 

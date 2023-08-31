@@ -5,23 +5,23 @@ body{
 }
 header{
     background-color: #507EA8 ;
-    padding: 3%;
+    padding: 39px;
     position:initial;
-    
 }
 .tituloprincipal{
     position: absolute;
-    top: 3%;
+    top: 1%;
     left:38%;
     transform: translate(-10%, 50%);
-    font-size: 70px;
+    font-size: 60px;
     color:#101C84;
     text-shadow: -1px -1px 0px #8f0909;
 }
 nav{
     position: absolute;/*posicionamento dos links*/
-    top: 20%;
+    top: 16%;
     right: 545px;
+    margin-top: 12px;
 }
 nav li{
     display: inline;
@@ -78,7 +78,7 @@ legend{
     background-color: #507EA8;
     border-radius: 8px;
     font-size: 22px;
-    margin-left: 150px;
+    margin-left: 36%;
 }
 .inputBox{
     position: relative;
@@ -143,4 +143,18 @@ color: #12125c;
 }
 p{
     margin: 10px;
+}
+footer{
+    text-align: left;
+    background-color: #507EA8 ;
+    border: 1px solid white;
+    margin-top: 800px;
+}
+.titulosecundario{
+    position: absolute;
+    font-size: 40px;
+    color:#101C84;
+    text-shadow: -1px -1px 0px #8f0909;
+    top: 139%;
+    left: 41%;
 }
