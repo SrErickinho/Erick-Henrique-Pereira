@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+.box{
+   background-color: rgb(222, 162, 218); 
+   margin-top: 12%;
+   margin-left: 100px;
+   margin-right: 100px;
+   padding: 70px;
+   filter: drop-shadow(2px 2px 9px #9030de);
+}
+.enviar{
+    background-color: aqua;
+    color:black;
+    border-radius: 10px;
+}
+p{
+    color: rgb(128, 117, 117);
+    font-size: 30px;
+}
+.vindo{
+    font-size: 90px;
+}

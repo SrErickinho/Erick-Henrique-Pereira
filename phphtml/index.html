@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">   
+    </head>
+    <body>
+        <header> <!--Cabeçaho-->
+
+        </header>
+
+        <main><!--Meio-->
+            <section class="box">
+                <form action="php/envia.php" method="get">
+                    <fieldset>
+                        <legend><strong>Formulário</strong></legend>
+                        <br>
+                        <section class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelinput">Nome</label>
+                        </section> 
+                        <br><br>
+                        <section class="inputBox">
+                            <input type="number" name="idade" id="idade" class="inputUser" required>
+                            <label for="idade" class="labelinput">Idade</label>
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                            <input type="number" id="peso" name="peso" class="inputUser" required>
+                            <label for="peso" class="labelinput">Peso</label>
+                        </section>
+                        <br><br>
+                        <input type="submit" class="enviar" value="Enviar formulário" id="enviar" required>
+                    </fieldset>
+
+                    
+                </form>
+            </section>
+
+        </main>
+
+
+
+
+    </body>
+
+</html>
